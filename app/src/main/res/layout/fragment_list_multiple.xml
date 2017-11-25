@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gdut.dkmfromcg.ggmusic.ui.fragment.localmusic.ListMultipleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/xrecv_local"/>
+
+    <com.gdut.dkmfromcg.ggmusic.widget.WaveSideBarView
+        android:id="@+id/side_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>
